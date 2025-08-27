@@ -12,9 +12,14 @@ int main(void)
 {
 	int a;
 
-	for (a = 0; a < 26; a++)
-		if ((a != 4) || (a != 16))
+	for (a = 0; a < 26;)
+		if ((a == 4) || (a == 16))
+			a++;
+		else
+		{
 			putchar(97 + a);
+			a++;
+		}
 	putchar('\n');
 	return (0);
 }
