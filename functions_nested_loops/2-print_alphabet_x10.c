@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 	int a;
 	int i = 0;
 
-	for (i = 0; i < 10; i++)
+	while (i < 10)
 	{
 		for (a = 0; a < 26; a++)
 			_putchar(97 + a);
@@ -22,5 +22,4 @@ void print_alphabet_x10(void)
 		i++;
 	}
 }
-
 
