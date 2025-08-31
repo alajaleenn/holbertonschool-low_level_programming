@@ -13,8 +13,19 @@
 
 int _isupper(int c)
 {
+<<<<<<< HEAD
+if ((c > 64) & (c < 91))
+return (1);
+else
+return (0);
+}
+=======
 	if ((c > 64) & (c < 91))
 		return (1);
 	else
 		return (0);
 }
+<<<<<<< HEAD
+=======
+>>>>>>> 0c0af32 ( update)
+>>>>>>> dc56030
