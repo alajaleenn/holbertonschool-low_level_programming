@@ -8,14 +8,16 @@
  *
  * Not Return
  */
+
 void print_rev(char *s)
 {
-int i;
-for (i = 0; s[i] != '\0'; ++i)
-;
-for (; i > 0; i--)
-{
-_putchar(s[i - 1]);
-}
-_putchar('\n');
+	int i;
+
+	for (i = 0; s[i] != '\0'; ++i)
+		;
+	for (; i > 0; i--)
+	{
+		_putchar(s[i - 1]);
+	}
+	_putchar('\n');
 }
